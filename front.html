@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário GET e POST</title>
+<link rel="stylesheet" href="/front.css">
+<script src="/front.js"></script>
+</head>
+<body>
+
+<!-- Formulário para requisição GET -->
+<h1 id="form_get">Formulário Get</h1>
+<form action="/exemplo-get" method="get">
+    <label for="input-get">GET Input:</label>
+    <input type="text" id="input-get" name="get_input">
+    <button type="submit">Enviar GET</button>
+</form>
+
+<hr>
+
+<!-- Formulário para requisição POST -->
+<h1 id="form_post">Formulário Post</h1>
+<form action="/exemplo-post" method="post">
+    <label for="input-post1">POST Input 1:</label>
+    <input type="text" id="input-post1" name="post_input1">
+    <br>
+    <label for="input-post2">POST Input 2:</label>
+    <input type="text" id="input-post2" name="post_input2">
+    <br>
+    <button type="submit">Enviar POST</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #dacbcb;
+        padding: 20px;
+    }
+
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(245, 29, 29, 0.1);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    #form_post{
+        justify-content: center;
+        display: flex;
+    }
+
+    #form_get{
+        justify-content: center;
+        display: flex;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box; /* Para incluir padding na largura total */
+    }
+
+    button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    hr {
+        margin-top: 8vw;
+        border: none;
+        border-top: 1px solid #9b2020;
+    }
+
+
